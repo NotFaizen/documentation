@@ -10,7 +10,7 @@ description: 'Aoi.JS - This Package, allows you to make Discord Bot with ease!'
 
 * $apiMessage: "sends a message using Discord api - $apiMessage\[content,embed \(optional\), components \(optional\), reference \_message\_id:mention the replied user\(default false\); Return id \(optional default no\)\]", 
 * $awaitButtons: "awaits buttons for given amount of uses - $awaitButtons\[msgid;userfilter; customID, customID,...; awaitcommand, awaitedcommand,...; error content,Error embed,erorr flags \(optional\);uses \(optional : default 1\)\]",
-*  $buttonCollector: "creates a collector for given customIDs;$buttonCollector\[messageID;everyone/userID;time;customID,customID,...;awaitedcommand,awaitedcommand,...;error msg content,error msg embed,error msg flags \(64 for ephemeral\) \(optional\); awaitedcommand \(executes when collector ends\)\(optional\)\]", 
+*  $buttonCollector: "creates a collector for given customIDs - $buttonCollector\[messageID;everyone/userID;time;customID,customID,...;awaitedcommand,awaitedcommand,...;error msg content,error msg embed,error msg flags \(64 for ephemeral\) \(optional\); awaitedcommand \(executes when collector ends\)\(optional\)\]", 
 * $interactionEdit:"edits the original interaction Response - $interactionEdit\[content;embeds; components\]", 
 * $interactionDelete:"deletes the original interaction Response \(doesn't support ephemeral messages\)" $interactionReply\[content;embeds; components \(optional\);flags \(optional\);type \(optional\)\] been improved
 
